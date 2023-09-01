@@ -10,9 +10,9 @@ spring:
     password: admin
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://user-microservice-db.mysql.database.azure.com:3306/users
-    username: spring
-    password: UserAdmin123!
+    url: jdbc:mysql://user-microservice-db.mysql.database.azure.com:3306/users #your databse server here, keep /users
+    username: spring #your username here, probably username@dbserver required
+    password: admin #your pw here
   jpa:
     properties:
       hibernate:
@@ -21,11 +21,6 @@ spring:
         use_sql_comments: true
     hibernate:
       ddl-auto: update
-  #jms:
-   # servicebus:
-    #  connection-string: Endpoint=sb://goalsservice.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WSJdd5dkKAAs2SKz6qpaD4WlLbr2ssOpx+ASbP9dDdA=
-     # pricing-tier: standard
-      #topic-client-id: 6ea22758-6c80-4841-88dc-182bf540d7e0
 uuids:
   user-type: 
     volunteer: c1ee82fa-35d6-11ee-b0c3-d65d517f8931
