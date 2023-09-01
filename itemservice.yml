@@ -7,8 +7,8 @@ spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://item-microservice-db.mysql.database.azure.com:3306/items #your db URL here, keep /goals
-    username: spring
-    password: ItemAdmin123!
+    username: spring #your username here, probably also probably username@dbserver required
+    password: admin #your pw here
   activemq:
     broker-url: tcp://localhost:61616
     user: admin
