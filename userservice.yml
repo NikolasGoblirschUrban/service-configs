@@ -11,7 +11,7 @@ spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/users #your databse server here, keep /users
-    username: spring@localhost #your username here, probably username@dbserver required
+    username: spring #your username here, probably username@dbserver required
     password: admin #your pw here
   jpa:
     properties:
