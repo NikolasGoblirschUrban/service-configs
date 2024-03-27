@@ -10,8 +10,8 @@ spring:
     password: admin
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://user-microservice-db.mysql.database.azure.com:3306/users #your databse server here, keep /users
-    username: spring #your username here, probably username@dbserver required
+    url: jdbc:mysql://localhost:3306/users #your databse server here, keep /users
+    username: spring@localhost #your username here, probably username@dbserver required
     password: admin #your pw here
   jpa:
     properties:
