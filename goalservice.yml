@@ -10,8 +10,8 @@ spring:
     password: admin
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://goals-microservice-db.mysql.database.azure.com:3306/goals #your db URL here, keep /goals
-    username: spring #your username here, probably also probably username@dbserver required
+    url: jdbc:mysql://localhost:3306/goals #your db URL here, keep /goals
+    username: spring@localhost #your username here, probably also probably username@dbserver required
     password: admin #your password here
   jpa:
     properties:
